@@ -5,7 +5,15 @@
 {% block content %}
     <div class="features">
         <h1>News</h1>
-        
-        <button class="btn btn-warning">Just click</button>
+        {% if news %}
+            {% for i in news %}
+                <div class="alert alert-warning">
+                    <h3>{{ i.title }}</h3>
+                    <p>{{ i.anons }}</p>
+                </div>
+            {% endfor %}
+        {% else %}
+            <p>No entries</p>
+        {% endif %}
     </div> 
 {% endblock %}
