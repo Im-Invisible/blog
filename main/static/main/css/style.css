@@ -13,20 +13,13 @@ aside {
 }
 
 aside img {
+    margin:  0 auto;
     width: 50%;
-    float: left;
-}
-
-aside .logo {
-    font-size: 40px;
-    margin-left: 10px;
-    font-weight:  bold;
-    position: relative;
-
+    float: center;
 }
 
 aside h3 {
-    margin-top: 50px;
+    margin-top: 5%;
     font-size: 28px;
 }
 
@@ -35,6 +28,7 @@ aside ul {
 }
 
 aside ul li {
+    list-style: none;
     color: #fff;
     display: block;
     margin-top: 10px;
@@ -52,23 +46,24 @@ main .features {
     color: #fff;
     margin-top: 100px;
     text-align: center;
-    width: 75%;
+    width: 80%;
 }
 
 main .features h1 {
+    margin-top: 0%;
     font-size: 50px;
 }
 
 main .features p{
-    max-width: 400px;
-    margin: 20px auto;
+    max-width: 96%;
+    margin: 2% auto;
 }
 
 .alert-warning {
     float: left;
     clear: both;
-    width: 400px;
-    margin: 20px 35%;
+    width: 96%;
+    margin: 2%;
     text-align: left;
 }
 
