@@ -28,11 +28,14 @@ aside ul {
 }
 
 aside ul li {
-    list-style: none;
     color: #fff;
     display: block;
     margin-top: 10px;
     transition: transform .2s ease;
+}
+
+aside ul a{
+    text-decoration: none;
 }
 
 aside ul li:hover, aside ul a:hover {
